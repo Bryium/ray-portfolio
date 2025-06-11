@@ -1,0 +1,149 @@
+/* Root Variables */
+:root {
+  --primary: #2b2d42;
+  --secondary: #8d99ae;
+  --accent: #edf2f4;
+  --highlight: #ef233c;
+  --white: #fff;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--accent);
+  color: var(--primary);
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* Hero Section */
+.hero {
+  background: var(--primary);
+  color: var(--white);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent);
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+/* Navbar */
+.navbar {
+  background: var(--highlight);
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  border-bottom: 2px solid var(--secondary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Challenges */
+.challenge {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--highlight);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: var(--primary);
+  color: var(--white);
+  padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar a {
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 0.3rem 0;
+  }
+}

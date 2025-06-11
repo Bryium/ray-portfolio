@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raymond Macharia | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <img src="Ray.jpg" alt="Your Photo" class="profile-pic" />
+        <h1>Raymond Macharia</h1>
+        <p class="tagline">
+          Cybersecurity Enthusiast | Building a Safer Digital World
+        </p>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container">
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#lab-challenges">Lab Challenges</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section id="resume" class="card">
+        <h2>Resume</h2>
+        <p>
+          <strong>Academic Background:</strong> BSc in Information Technology,
+          Dedan Kimathi University of Technology (DeKUT) - Dec 2024
+        </p>
+        <p>
+          <strong>Key Courses:</strong> Network Security, Operating Systems,
+          Database Systems, Cybersecurity Fundamentals
+        </p>
+
+        <p>
+          <strong>Work Experience:</strong><br />
+          <strong>SEO Intern</strong>, Exotic Advertizing (April 2024 –
+          Present)<br />
+          - Contribute to on-page and off-page SEO strategies, increasing
+          organic traffic.<br />
+          - Perform keyword research, competitor analysis, and content
+          optimization.<br />
+          - Collaborate with content/design teams for SEO alignment.<br />
+          - Assist in reporting using Google Analytics and Ahrefs.
+        </p>
+
+        <p><strong>Certifications:</strong></p>
+        <ul>
+          <li>CompTIA Security+</li>
+          <li>Cisco Cybersecurity Essentials</li>
+          <li>CCSK v4.1 Foundation – Cloud Security Alliance</li>
+        </ul>
+
+        <p><strong>Skills:</strong></p>
+        <ul>
+          <li>
+            <strong>Technical:</strong> Network Scanning, Linux, Windows Server,
+            Virtualization (Proxmox, VirtualBox), Python, Bash
+          </li>
+          <li>
+            <strong>Tools:</strong> Nessus, Nmap, Wireshark, Burp Suite,
+            Metasploit, WPScan
+          </li>
+          <li>
+            <strong>Soft Skills:</strong> Communication, Analytical Thinking,
+            Team Collaboration
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects" class="card">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong>Vulnerability Assessment Using Nessus:</strong> Scanned
+            Windows 10 VMs for missing patches and insecure configurations.
+            Generated reports and remediation strategies.
+          </li>
+          <li>
+            <strong>Packet Sniffer using Python:</strong> Built with socket and
+            Scapy to detect suspicious packets in real-time.
+          </li>
+          <li>
+            <strong>Digit Classification with TensorFlow:</strong> Built a model
+            using TensorFlow to classify MNIST handwritten digits with 97%
+            accuracy.
+          </li>
+          <li>
+            <strong
+              >Convolutional Neural Networks (CNNs) for Image
+              Recognition:</strong
+            >
+            Applied CNNs to improve accuracy and speed in digit recognition
+            tasks.
+          </li>
+        </ul>
+      </section>
+
+      <section id="lab-challenges" class="card">
+        <h2>Lab Challenges</h2>
+
+        <div class="challenge">
+          <h3>Challenge 1: Exploiting File Upload Vulnerability (CTF)</h3>
+          <p>
+            <strong>Problem:</strong> Upload a malicious file to gain shell
+            access
+          </p>
+          <p>
+            <strong>Approach:</strong> Bypassed file extension checks using Burp
+            Suite
+          </p>
+          <p><strong>Tools Used:</strong> Burp Suite, Netcat</p>
+          <p>
+            <strong>Key Lessons:</strong> Input validation, server
+            misconfiguration
+          </p>
+        </div>
+
+        <div class="challenge">
+          <h3>Challenge 2: SQL Injection in Login Form</h3>
+          <p>
+            <strong>Problem:</strong> Bypass login form to extract database
+            contents
+          </p>
+          <p>
+            <strong>Approach:</strong> Used `' OR '1'='1` payload and SQLMap for
+            enumeration
+          </p>
+          <p><strong>Tools Used:</strong> Manual SQLi, SQLMap</p>
+          <p><strong>Key Lessons:</strong> Importance of prepared statements</p>
+        </div>
+
+        <div class="challenge">
+          <h3>Challenge 3: Web Application Reconnaissance</h3>
+          <p>
+            <strong>Problem:</strong> Map the attack surface of a given domain
+          </p>
+          <p>
+            <strong>Approach:</strong> Used dirb, whois, and whatweb for intel
+            gathering
+          </p>
+          <p><strong>Tools Used:</strong> Dirb, Whois, WhatWeb, Nmap</p>
+          <p><strong>Key Lessons:</strong> OSINT and directory brute forcing</p>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>
+          📧 Email: <a href="mailto:muthui816@gmail.com">muthui816@gmail.com</a>
+        </p>
+        <p>
+          🔗 LinkedIn:
+          <a href="https://linkedin.com/in/raymondmacharia" target="_blank"
+            >linkedin.com/in/raymondmacharia</a
+          >
+        </p>
+        <p>
+          💻 GitHub:
+          <a href="https://github.com/raymuthui" target="_blank"
+            >github.com/raymuthui</a
+          >
+        </p>
+        <p>📱 Phone: +254 713208001</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Raymond Macharia. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
